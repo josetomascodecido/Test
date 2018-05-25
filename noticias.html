@@ -16,26 +16,9 @@
   
 </head>
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="logo">
-                        <a href="" title="niño y cancer">
-                        <img src="images/logo_fundacion.gif" alt="niño y cancer">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-mg-8 col-md-12 col-sm-12">
-                    <div class="banner-area">
-                        <a href="http://www.ninoycancer.cl" title="">
-                        <img src="" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>  
-        </div>
-        <nav class="navbar navbar-default" id="navbarColor01">
+    <div class="container">
+        
+        <nav class="navbar navbar-default navbar-fixed-top" id="navbarColor01">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -47,29 +30,23 @@
                     <a class="navbar-brand" href="#">Fundación Niño y Cáncer</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li ><a href="index.html">Inicio</a></li>
                         <li><a href="nosotros.html">Nosotros</a></li>
+                        <li class="active"><a href="noticias.html"> Noticias<span class="sr-only">(current)</span></a> </li>
                     </ul>
-                    <form class="navbar-form navbar-left">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                        <button type="submit" class="btn btn-default">Buscar</button>
-                    </form>
-                        <ul class="nav navbar-nav navbar-right">
-                        </ul>
+                        
                 </div>
             </div>
         </nav>
     </div>
-        <div class="row">
+        <div class="row" style="padding-top: 100px;">
             <div class="container">
                 <div class="col-sm-4 col-md-8">
                     <div class="wrap-content">
                         <div class="posts">
                             <div class="post-thumbnail">
-                                <img src="imges/futbol.png" alt="">  
+                                <img src="images/futbolito.png" alt="">  
                             </div>
                             <h1 class="tittle">Torneo Interhospitales <br> Futbolito y porristas 2018!
                             </h1>
@@ -101,29 +78,40 @@
                 </div>
             </div>
         </div>
-        <div class="panel panel-default ">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="panel-footer">
-                        <address>
-                        <strong>Fundación niño y Cáncer.</strong><br>
-                        Tupungato 10070 Vitacura, Santiago de Chile<br>
-                        San Francisco, CA 94103<br>
-                        P: 22170821 - 22170811
-                        </address>
-                        <address>
-                        <strong>Contacto</strong><br>
-                        <a href="mailto:#">fundacion@ninoycancer.cl</a>
-                        </address>
+        <div class="panel-footer">
+        <div class="row">
+            <div class="col-md-6" style="padding: 20px 50px 50px 50px">
+                <address>
+                    <br><strong>Fundación niño y Cáncer.</strong><br>
+                    Tupungato 10070 Vitacura, Santiago de Chile<br>
+                    San Francisco, CA 94103<br>
+                    P: 22170821 - 22170811
+                </address>
+                <address>
+                    <strong>Contacto</strong><br>
+                    <a href="mailto:#">fundacion@ninoycancer.cl</a>
+                </address>
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="email">Correo:</label>
+                        <input type="email" class="form-control" id="email">
                     </div>
-                </div>
-                <div class="panel-footer">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527132208684" width="400" height="300" frameborder="0" style="border:0" allowfullscreen class="embed-responsive-item">
-                        </iframe>
-                    </div>
-                </div>
+                        <div class="form-group">
+                            <label for="pwd">Comentario:</label>
+                            <input type="textarea" class="form-control" id="pwd">
+                        </div>
+                    
+                            <button type="submit" class="btn btn-default">Enviar</button>
+                </form>
             </div>
-        </div>
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1527203301632" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                 </div>
+            </div>    
+        </div>  
+    </div>
 </body>
+</head>
 </html>
