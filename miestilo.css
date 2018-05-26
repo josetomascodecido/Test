@@ -1,0 +1,35 @@
+.jumbo-fili{
+	background-image:url(images/fili.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-top: 80px;
+	padding-bottom: 140px;
+}
+.jumbo-titulo{
+	color:white !important ;
+	text-align: center;
+	display: block;
+}
+p.jumbo-papa{
+	display:block;
+	text-align: center;
+
+}
+a.jumbo-boton{
+	background: #FD751D;
+	
+}
+.carrusel{
+	height: 400px;
+	overflow: hidden;
+}
+.chora{
+	border:1px solid red;
+	width: 100%;	
+}
+.texto-carusel{
+	
+	padding-bottom: 600px;
+
+}
